@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import { FiClock, FiDownload, FiMonitor, FiFileText, FiAward, FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
 const CourseDropdown = ({ title, children }) => {
